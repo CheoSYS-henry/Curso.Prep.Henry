@@ -1,0 +1,28 @@
+En el siguiente archivo podrá encontrar las explicaciones solicitadas, sobre los conceptos expuestos en la actividad 02-JS-I.
+
+
+¿Que es una variable?
+
+Una variable es un contenedor de datos, es decir, en ella puedes guardar cualquier tipo de datos. Existen diferentes tipos de datos aceptados por javascript, estos son definidos al momento de almacenar un valor en la misma, por lo que no tienes de que preocuparte.
+
+
+¿Que es una String?
+
+Los string son un tipo de dato de Javascript en el cual podemos guardar cadenas de texto para su posterior modificacion dependiendo del uso que se le quiera dar.
+
+
+¿Que son las funciones?
+
+Son fragmentos de codigo que se colocan dentro de una estructura para ser llamados en el momento que se necesiten y asi resolver una operacion, esto permite ahorrar codigo ya que la misma se escribe una sola vez y permite poder ser usada las veces que sea posible sin necesidad de repetir ese fragmento de codigo una y otra vez.
+Por lo general recibe argumentos que son recibidos en el orden establecido por el programador de la funcion y devuelve un 'return' con el resultado de la operación.
+
+
+¿Que son las declaraciones 'if'?
+
+Estas nos permiten poder realizar selecciones basadas en reglas que establecemos previamente, lo que nos permite automatizar los procesos que queremos que se ejecuten solo si se cumplen ciertas caracteristicas.
+
+
+¿Que son los valores boleanos?
+
+Son un tipo de dato que permite almacenar un solo valor, ya sea verdadero (true) o falso (false), tiene infinidad de usos, el mas importante permitir visualizar el resultado de una formula para que nos permita elegir cual es el proximo paso a seguir con la respuesta establecida.
+ 
