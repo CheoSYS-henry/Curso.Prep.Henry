@@ -1,0 +1,63 @@
+En el siguiente archivo exponemos las actividad propuesta en la actividad 03-JS-II, la explicacion de los conceptos propuestos.
+
+¿Que es un ciclo For?
+
+Un ciclo for es aquel que nos permite repitir un comando n cantidad de veces hasta que se cumplan los requisitos establecidos en un argumento inicial, 
+
+
+los mismos tienen la siguiente estructura:
+
+for (let i=0; i<=10; i++){
+	[Codigo dentro del ciclo];
+}
+
+El mismo se divide en tres partes, la primera inicializamos una variable que se utilizara solo dentro del ciclo, la misma se inicia en 0, en la segunda (i<=0) tenemos la condicion de salida, en ella le indicamos al compilador que mientras este dentro de los parametros inicados debe volver a repetir el codigo (iteracion). La tercera (i++) nos permite indicarle al ciclo for un conteo de la cantidad de veces que se ha repetido el codigo, cada vez que se realice se sumara un 1 al valor de i. Colocar la expresion i++ es lo mismo que decir i=i+1 pero en una expresion reducida.
+
+Esto tiene muchisimos usos en la programacion, supongamos que deseamos realizar la tabla de multiplicar de 9, la misma podriamos realizarla con un ciclo for facilmente.
+
+El codigo seria asi:
+
+for (let i=1; i<=10; i++) {
+	tabla=9*i;
+	console.log(tabla)
+}
+
+y asi nos imprimiria en pantalla todos los resultados posible en la tabla del nueve del hasta el 10, 
+
+Tu imaginacion es el limite que tendras para utilizar los ciclos for en el codigo.
+
+
+
+Operadores logicos (&&,||,!)
+
+los operadores logicos son utilizados para realizar comparaciones entre dos datos, los cuales nos regresaran un valor booleano (true o false) que podremos utilizar dependiendo lo que necesitemos hacer.
+
+el operador && (y) es aquel que solo envia un valor verdadero siempre y cuando se cumplan las dos variables que estan siendo comparadas, por ejemplo:
+
+num1=5;
+num2=3;
+
+if (num1===5 && num2>1) ----> Esta expresion regresaria un valor true
+
+if (num1<10 && num2>5) ---> Esta expresion regresaria un valor False
+
+
+El operador || al igual que el valor && nos regresa un valor boleano, pero a diferencia de la expresion && esta solo regresa un valor true solo si una de las dos condiciones es cumplida, por ejemplo:
+
+num1=5;
+num2=3;
+
+if (num1===5 || num2<1) ---> al cumplirse la primera condicion retorna un valor true, asi la segunda no se cumpla.
+if (num1===5 || num2>1) ---> al cumplirse las dos condiciones tambien retorna un valor true,
+if (num1===6 || num2>10) ---> retorna un valor false ya que ninguna de las condiciones es cumplida.
+
+
+El operador ! es un valor not, al anteponerse a cualquier condicion invierte el resultado, es decir, si es true pasa a false y viseversa. Vamos a verlo con un ejemplo.
+
+num1=5;
+num2=3;
+
+if (!(num1===5 || num2===3)) ---> Enviaria un valor false ya que la condicional not invierte el resultad 
+
+
+
