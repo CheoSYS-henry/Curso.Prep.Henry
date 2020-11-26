@@ -73,7 +73,7 @@ function arrayContiene(array, elemento) {
   // Tu código:
   let igual = false;
     
-      for (i = 0; i < array.length; i++) {
+      for (i = 0; i<array.length; i++) {
         if (array[i] === elemento) {
           igual = true;
         } 
