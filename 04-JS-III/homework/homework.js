@@ -54,17 +54,17 @@ function dePalabrasAFrase(palabras) {
   // Ejemplo: ['Hello', 'world!'] -> 'Hello world!'
   // Tu código:
   let str = "";
-
-  for (i = 0; i < palabras.length; i++) {
-    if (i === 0) {
-      str = palabras[i];
-    } else if (i>0) {
-      str = `${str} ${palabras[i]}`;
+  
+    for (i = 0; i < palabras.length; i++) {
+      if (i === 0) {
+        str = palabras[i];
+      } else if (i>0) {
+        str = `${str} ${palabras[i]}`;
+      }
+      if (i===(palabras.length-1)){
+        return str;
+      }      
     }
-    if (i===(palabras.length-1)){
-      return str;
-    }      
-  }
 }
 
 function arrayContiene(array, elemento) {
@@ -72,16 +72,14 @@ function arrayContiene(array, elemento) {
   // Devuelve "true" si está, o "false" si no está
   // Tu código:
   let igual = false;
-
-  for (i = 0; i < array.length; i++) {
-    if (array[i] === elemento) {
-      igual = true;
-    } else {
-      igual = false;
-    }
-  }
-
-  return igual;
+    
+      for (i = 0; i < array.length; i++) {
+        if (array[i] === elemento) {
+          igual = true;
+        } 
+      }
+    
+      return igual;
 }
 
 function agregarNumeros(numeros) {
@@ -89,12 +87,12 @@ function agregarNumeros(numeros) {
   // Suma todos los enteros y devuelve el valor
   // Tu código:
   let suma = 0;
-
-  for (i = 0; i < numeros.length; i++) {
-    suma = suma + numeros[i];
-  }
-
-  return suma;
+        
+          for (i = 0; i < numeros.length; i++) {
+            suma = suma + numeros[i];
+          }
+        
+          return suma;
 }
 
 function promedioResultadosTest(resultadosTest) {
@@ -102,14 +100,14 @@ function promedioResultadosTest(resultadosTest) {
   // Itera (en un bucle) los elementos del array, calcula y devuelve el promedio de puntajes
   // Tu código:
   let suma = 0;
-
-  for (i = 0; i < resultadosTest.length; i++) {
-    suma = suma + resultadosTest[i];
-  }
-
-  let prom = suma / resultadosTest.length;
-
-  return prom;
+  
+    for (i = 0; i < resultadosTest.length; i++) {
+      suma = suma + resultadosTest[i];
+    }
+  
+    let prom = suma / resultadosTest.length;
+  
+    return prom;
 }
 
 function numeroMasGrande(numeros) {
@@ -117,7 +115,7 @@ function numeroMasGrande(numeros) {
   // Devuelve el número más grande
   // Tu código:
   let grande = 0;
-
+  
   for (i = 0; i < numeros.length; i++) {
     if (grande < numeros[i]) {
       grande = numeros[i];
@@ -132,18 +130,15 @@ function multiplicarArgumentos() {
   // Si no se pasan argumentos devuelve 0
   // Si se pasa un argumento, simplemente devuélvelo
   // Tu código:
-  let multiplicacion = 1;
-  if (arguments.length === 0) {
-    return 0;
+  if (arguments.length===0) return 0;
+  if (arguments.length===1) return arguments[0];
+  let multiplicacion=1;
+
+  for (i=0;i<arguments.length;i++){
+      multiplicacion=multiplicacion*arguments[i];
   }
-  if (arguments.length === 1) {
-    return arguments[0];
-  } else {
-    for (i = 0; (i = arguments.length); i++) {
-      multiplicacion = multiplicacion * arguments[i];
-    }
-    return multiplicacion;
-  }
+
+  return multiplicacion;
 }
 
 // No modificar nada debajo de esta línea

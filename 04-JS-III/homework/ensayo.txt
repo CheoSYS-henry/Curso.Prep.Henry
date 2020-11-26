@@ -1,0 +1,10 @@
+En el siguiente archivo encontraras la explicacion solicitada en la homework de la clase 4.
+
+¿Que es un array?
+
+Un array es segun la pagina developer.mozilla.org un objeto que almacena un conjunto de variables, y otros string que permiten realizar operaciones en las que tenemos que modificar grandes cantidades de informacion, y su uso sera requerido
+
+Un array puede manejarse como un conjunto de universos que pueden ser tratados como una variable global, y al mismo tiempo puedes tratar cada una de las variables en su interior dependiendo de lo que desees realizar.
+
+Los array permiten recorrer las distintas posiciones para modificar los datos requeridos, al estar dentro de un mismo elemento podemos modificar lotes de datos utilizando las funciones for o while.
+
