@@ -1,0 +1,54 @@
+En el siguiente documento les presento la actividad Javascript IV, la cual esta basada en objetos, 
+
+<strong>Los objetos</strong> son un tipo de conjunto de datos que nos ofrece javascript, el clases anteriores habiamos aprendido a crear arrays, los cuales son una lista de datos, estas se presentan de la siguiente manera:
+
+var lista=[23,"lorem",true];
+
+es decir, <b>pueden almacenar multiples datos pero de diferentes elementos que no tendrian relacion entre si;</b> y en este punto es que radica su diferencia con los objetos.
+
+Siempre como programadores deseamos y necesitamos poder llevar nuestros conocimientos a la vida real, y en la vida real existen objetos, y cada objeto tiene propiedades. 
+
+Supongamos, deseas recolectar informacion de multiples usuarios para tu aplicacion en particular, deseas registrar el email, nombre y telefono. Seria algo tan sencillo con lo siguiente:
+
+var newUser={
+    nombre= "nombre", //espacio para nombre
+    email= "email", //espacio para email
+    telefono ="telefono" //espacio para telefono
+}
+
+al poder identificar cada uno de los elementos, los cuales tienen por nombre elementos de clave:valor (de ahora en adelante key:value)
+nos permite acceder a la informacion de manera mas ordenada y comprensible para la mente humana.
+
+Tambien en caso de requerirlo podemos establecer funciones dentro de cada una de los elementos key:value y asi poder llamar la funcion especifica,
+
+supongamos que deseas saber cual es el mayor de dos numeros y tienes un objeto en el cual se guarda una funcion, lo cual seria asi:
+
+var mayor = {
+    dosNumeros=function(num1,num2){
+        if (num1>num2){
+            return "el primer numero es mayor";
+        } else if (num2 > num1) {
+            return "el segundo numero es mayor;
+        } else if (num2===num1) {
+            return "Ambos son iguales":
+        }
+    }
+}
+
+El limite de sus usos es tu creatividad, 
+
+Debemos recordar que por convencion todos las funciones que esten dentro de un objeto tienen por nombre <strong>metodos.</strong>
+
+
+En ocasiones vamos a requerir verificar todas las opciones que tenemos en un objeto, como lo podemos hacer con un array debemos usar un ciclo for, el mismo nos permite recorrer todas las key:value para realizar lo que necesitemos, para esto javascript nos proporciona una herramienta dentro del ciclo for que usaremos de la siguiente manera:
+
+for (let i in nombredelobjeto){
+    codigo a realizar
+}
+
+De esta forma podemos recorrer el array para ejecutar nuestro codigo.
+
+Un saludo.
+
+
+
