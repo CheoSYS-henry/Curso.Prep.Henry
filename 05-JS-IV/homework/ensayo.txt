@@ -42,7 +42,7 @@ Debemos recordar que por convencion todos las funciones que esten dentro de un o
 
 En ocasiones vamos a requerir verificar todas las opciones que tenemos en un objeto, como lo podemos hacer con un array debemos usar un ciclo for, el mismo nos permite recorrer todas las key:value para realizar lo que necesitemos, para esto javascript nos proporciona una herramienta dentro del ciclo for que usaremos de la siguiente manera:
 
-for (let i in nombredelobjeto){
+for(let i in nombredelobjeto){
     codigo a realizar
 }
 

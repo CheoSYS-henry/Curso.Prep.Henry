@@ -52,7 +52,7 @@ function eliminarPropiedad(objeto, propiedad) {
 
 function nuevoUsuario(nombre, email, password) {
   // Crea un nuevo objeto con las propiedades coincidiendo con los argumentos que se pasan a la función
-  // Devuelve el objeto
+  // Devuelve el obeto
   // Tu código:
   newUser={
     "nombre":nombre,
