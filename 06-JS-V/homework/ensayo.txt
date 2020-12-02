@@ -1,0 +1,36 @@
+En el siguiente documento de texto procedo a enviar las explicaciones solicitadas para submitear la actividad 06-JS-V
+
+Se solicita explicar el elemento prototype, el uso del mismo en un objeto sirve para añadir caracteristicas adicionales (metodos), a un objeto ya creado y de esta manera asi poder expandir las funciones del objeto.
+
+Como es bien sabido, una clase nos sirve para poder definir cuales son los key:value de un objeto que estamos generando para usar en el programa, puede ser para uso en una base de datos pero realmente tiene diversos usos,
+
+Debemos tener cuidado al manejar prototype en nuestros proyectos y agregar funciones que no existan ya predefinidas por el lenguaje sino agragar nuevas funciones.
+
+Su uso es el siguiente:
+
+function User(caracteristicas){
+    //Este seria el construtor de un nuevo objeto
+}
+
+User.prototype.saludar=function(){
+    //En este lugar deberia estar el codigo que queremos añadir al objeto
+}
+
+
+
+Construtor de Clases:
+
+La funcion de este es ser un tipo de plantilla que nos va a permitir generar la cantidad de objeto que necesitemos para ejecutar nuestro proyecto.
+
+Esta permite poder generar rapidamente los parametros que debera recibir un objeto sin necesidad de copiarlo uno a uno.
+
+function User(car1,car2){
+   this.car1:car1, //Este seria el construtor de un nuevo objeto
+   this.car2:car2
+}
+
+var nuevaVariable=user("dato1","dato2"); // se llama a user para crear un nuevo objeto.
+
+Detras de esta funcion existe codigo que nos hace mas sencillo el trabajo, pero es importante conocer de donde proviene.
+
+

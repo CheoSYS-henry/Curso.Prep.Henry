@@ -1,6 +1,6 @@
 En el siguiente documento les presento la actividad Javascript IV, la cual esta basada en objetos, 
 
-<strong>Los objetos</strong> son un tipo de conjunto de datos que nos ofrece javascript, el clases anteriores habiamos aprendido a crear arrays, los cuales son una lista de datos, estas se presentan de la siguiente manera:
+<strong>Los objetos</strong> son un tipo de conjunto de datos que nos ofrece javascript, en clases anteriores habiamos aprendido a crear arrays, los cuales son una lista de datos, estas se presentan de la siguiente manera:
 
 var lista=[23,"lorem",true];
 
