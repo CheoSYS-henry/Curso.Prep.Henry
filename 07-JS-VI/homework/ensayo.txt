@@ -1,0 +1,21 @@
+Funciones Callbacks
+
+Son las que nos permiten poder invocar diferentes funciones para hacer mas flexible su uso, y asi hacer mas sencilla y rapido el desarrollo de aplicaciones,
+
+Siempre la menjor manera de poder explicar este tipo de funciones es con el ejemplo.
+
+La manera tradicional de realizar un ciclo for es la siguiente
+
+for(i=0;i<arreglo.length;i++){
+         return arreglo[i];
+};
+
+El anterior codigo realiza el recorrido del array y lo devuelve uno a uno,
+
+los objetos Array poseen una funcion llamada forEach que nos facilita este trabajo, la misma se escribiria de la siguiente forma,
+
+arreglo.forEach(function(parametro){
+    return parametro;
+});
+
+En el caso anterior nos permitirá realizar ambos procesos de manera acertiva pero la diferencia radica en que de la segunda manera estariamos reutilizando una funcion anteriomente escrita y asi poder ser mas veloces al momento de desarrollar.

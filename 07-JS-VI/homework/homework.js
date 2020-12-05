@@ -10,28 +10,30 @@ function sumarArray(numeros, cb) {
   // Pasa el resultado a `cb`
   // No es necesario devolver nada
   var suma=0;
-for (i=0;i<numeros.length;i++){
-    suma=suma+numeros[i];
-  }
-
-  cb(suma);
+    numeros.forEach(function(arreglo2){
+        suma=suma+arreglo2;
+    });
+    return cb(suma);
 
 }
 
 function forEach(array, cb) {
   // Itera sobre la matriz "array" y pasa los valores al callback uno por uno
   // Pista: Estarás invocando a `cb` varias veces (una por cada valor en la matriz)
-  var i=0;
-  for (i=0;i<numeros.length;i++){
-      cb(elemento[i]);
+  array.forEach(function(arre) {
+    cb(arre);
+  });
   }
-}
 
 function map(array, cb) {
   // Crea un nuevo array
   // Itera sobre cada valor en "array", pásalo a `cb` y luego ubicar el valor devuelto por `cb` en un nuevo array
   // El nuevo array debe tener la misma longitud que el array del argumento
+  var arre = array.map(function(parametro) {
+    return cb(parametro);
+  });
 
+  return arre;
   
 }
 
